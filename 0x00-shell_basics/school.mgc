@@ -1,2 +1,2 @@
-0 String= 'School' thisisaschoolfile
-!:mime text/plain
+0 search     SCHOOL     It is a school file
+!:mime MIMETYPE
