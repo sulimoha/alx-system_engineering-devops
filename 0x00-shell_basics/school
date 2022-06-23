@@ -1,3 +1,3 @@
 #!/bin/bash
 0 search SCHOOL School
-!:mime-data
+!:mime-data -e ascii
