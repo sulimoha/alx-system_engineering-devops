@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f 5,6 /etc/passwd | sort\n
+cut -f 5,6 /etc/passwd > col.txt | sort < col.txt
