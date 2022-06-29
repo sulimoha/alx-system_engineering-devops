@@ -1,2 +1,2 @@
 #!//binbash
-find . -type d -mindepth 1 | wc -l
+find ./ -type d -mindepth 1 | wc -l
