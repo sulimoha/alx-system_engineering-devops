@@ -1,2 +1,2 @@
 #!//binbash
-find . -type dR -mindepth 1 | wc -l
+find . ls
