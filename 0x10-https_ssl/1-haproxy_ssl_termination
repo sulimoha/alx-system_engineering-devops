@@ -39,7 +39,7 @@ defaults
 # Else it goes to the default backend for the web servers
 frontend my_frontend
         bind *:80
-        bind *:443 ssl crt /etc/letsencrypt/live/myhow.tech/fullchain.pem
+        bind *:443 ssl crt /etc/letsencrypt/live/myhow.tech
         mode http
         default_backend my_backend_1
 
