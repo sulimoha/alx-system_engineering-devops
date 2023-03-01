@@ -6,7 +6,7 @@ after = None
 
 
 def recurse(subreddit, hot_list=[]):
-    
+
     """     Args:
         subreddit: subreddit name
         hot_list: list of hot titles in subreddit
