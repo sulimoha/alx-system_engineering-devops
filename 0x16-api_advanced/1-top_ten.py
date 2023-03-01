@@ -5,9 +5,8 @@ import sys
 
 
 def top_ten(subreddit):
-    
     """ Returns: top ten post titles
-        or None if queried subreddit is invalid """
+    or None if queried subreddit is invalid """
 
     headers = {'User-Agent': 'iamgreat96'}
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
