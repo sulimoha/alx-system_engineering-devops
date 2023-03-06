@@ -1,4 +1,4 @@
-
+![Collecting water in absekt](https://github.com/sulimoha/alx-system_engineering-devops/blob/master/0x19-postmortem/Collecting%20water%20in%20a%20basket.png)
 # Issue Summary
 - Between the hours of 12:00 and 13:45 on February 13, 2023, EDT, all the five call center agents encountered down phone calls period.
 - The agents received zero calls during that period but their calling app shows missed calls.
