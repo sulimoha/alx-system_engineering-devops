@@ -9,6 +9,12 @@ ufw allow 'Nginx HTTP'
 sudo chown -R "$USER":"$USER" /var/www/html
 sudo chmod -R 755 /var/www
 
-echo "Hello World" > /var/www/html/index.nginx-debian.html
-sudo sed -i '24i\	rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+echo "Hello World" > /var/www/html/index.html
+
+server {
+    . . .
+    server_name 100.27.10.107/redirect_me/;
+    rewrite ^/(.*)$ https://www.youtube.com/watch?v=QH2-TGUlwu/$1 permanent;
+    . . .
+}
 sudo service nginx restart
